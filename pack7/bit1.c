@@ -43,11 +43,11 @@ int resh(int n, int k)
 	
 
 
-	number = (1U << n) - 1;
+	number = (1 << n) - 1;
 
 	sch = 0;
 	vremya = clock();
-	for(int i = 0; i < 1U << n; i++){
+	for(int i = 0; i < 1 << n; i++){
 
 		index = 8 * sizeof(int) - 1;
 		mask = 1 << index;
