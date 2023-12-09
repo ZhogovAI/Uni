@@ -9,4 +9,6 @@ void binary_print(int number);
 
 int read_two_numbers(int *number1, int *number2);
 
+int resh(int n, int k);
+
 #endif
